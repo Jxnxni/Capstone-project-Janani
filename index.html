@@ -8,28 +8,39 @@
   </head>
   <body>
     <img src="Janani.jpg" style="width:0"/>
+    <img src= "Hobbiton.jpg" style="width:0"/>
     
-    <nav>
-    <button id="page1-btn" onclick="window.location.href='page1.html'">Introduction</button>
-    <button id="page2-btn"
-    onclick="window.location.href='page2.html'">Resume</button>
+    <nav id="nav-menu">
+    <ul>
+    <li>
+    <button id="page1-btn" >Introduction</button>
+    </li>
+    <li>
+    <button id="page2-btn">Resume</button>
+    </li>
     <!-- <a href="#Summary">Summary</a>
     <a href="index2.html">Skills</a><br/>
     <a href="index3.html">Project</a><br/> -->
-    <button id="page3-btn">Portfolio</button>
+    <li>
+    <button id="page3-btn">Travel</button>
+    </li>
+    </ul>
     </nav>
+    
     <div id="container">
       <div class="page hidden" id="page-one">
+
         </div>
       
       <div class="page hidden" id="page-two">
-        
+       
         </div>
 
       <div class= "page hidden" id="page-three">
+        
         </div>
         </div>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
  <script src="script.js"></script> 
   </body>
 </html>
